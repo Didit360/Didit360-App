@@ -1,0 +1,51 @@
+{
+  "name": "@didit360/mobile",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "android": "ns run android",
+    "ios": "ns run ios",
+    "preview": "ns preview",
+    "clean": "ns clean",
+    "test": "jest",
+    "build:ios": "ns build ios --release",
+    "build:android": "ns build android --release",
+    "debug:ios": "ns debug ios",
+    "debug:android": "ns debug android"
+  },
+  "dependencies": {
+    "@nativescript/core": "^8.6.1",
+    "@nativescript/theme": "^3.0.2",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "react": "^18.2.0",
+    "react-nativescript": "^5.0.0",
+    "@nativescript/ios": "8.6.1",
+    "@nativescript/android": "8.6.2",
+    "axios": "^1.6.7",
+    "zustand": "^4.5.0",
+    "@react-native-community/netinfo": "^11.2.1",
+    "@nativescript/biometrics": "^1.3.1",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@nativescript/types": "^8.6.1",
+    "@nativescript/webpack": "^5.0.18",
+    "@types/jest": "^29.5.11",
+    "@types/react": "^18.2.43",
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2"
+  },
+  "main": "./src/app.ts",
+  "nativescript": {
+    "id": "com.didit360.app",
+    "platforms": {
+      "ios": {
+        "version": "1.0.0"
+      },
+      "android": {
+        "version": "1.0.0"
+      }
+    }
+  }
+}

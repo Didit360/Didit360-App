@@ -1,0 +1,23 @@
+// Architectures
+ARCHS = arm64
+VALID_ARCHS = arm64
+
+// Build Options
+ENABLE_BITCODE = NO
+SWIFT_VERSION = 5.0
+TARGETED_DEVICE_FAMILY = 1,2
+DEVELOPMENT_TEAM = 
+CODE_SIGN_IDENTITY = iPhone Developer
+CODE_SIGN_STYLE = Automatic
+
+// Deployment
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
+
+// Search Paths
+FRAMEWORK_SEARCH_PATHS = "$(inherited)" "$(PROJECT_DIR)/Pods"
+
+// Swift Compiler - Custom Flags
+OTHER_SWIFT_FLAGS = $(inherited) -D DEBUG
+
+// Asset Catalog Compiler
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon

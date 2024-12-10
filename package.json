@@ -1,0 +1,33 @@
+{
+  "name": "didit360",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "web",
+    "mobile",
+    "backend"
+  ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "setup": "pnpm install",
+    "web:dev": "pnpm --filter @didit360/web dev",
+    "web:build": "pnpm --filter @didit360/web build",
+    "backend:dev": "pnpm --filter @didit360/backend dev",
+    "backend:build": "pnpm --filter @didit360/backend build",
+    "mobile:ios": "pnpm --filter @didit360/mobile ios",
+    "mobile:android": "pnpm --filter @didit360/mobile android",
+    "lint": "eslint \"**/*.{ts,tsx}\" --fix",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.12.1"
+}

@@ -1,0 +1,49 @@
+PODS:
+  - NativeScript (8.6.1)
+  - SDWebImage (5.18.3)
+  - SwiftKeychainWrapper (4.0.1)
+  - IQKeyboardManagerSwift (6.5.12)
+  - Firebase/Analytics (10.18.0)
+  - Firebase/Crashlytics (10.18.0)
+  - GoogleSignIn (7.0.0)
+  - FBSDKLoginKit (16.2.1)
+  - AudioKit (5.6.1)
+
+DEPENDENCIES:
+  - NativeScript (from `../node_modules/@nativescript/core`)
+  - SDWebImage
+  - SwiftKeychainWrapper
+  - IQKeyboardManagerSwift
+  - Firebase/Analytics
+  - Firebase/Crashlytics
+  - GoogleSignIn
+  - FBSDKLoginKit
+  - AudioKit
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SwiftKeychainWrapper
+    - IQKeyboardManagerSwift
+    - Firebase
+    - GoogleSignIn
+    - FBSDKLoginKit
+    - AudioKit
+
+EXTERNAL SOURCES:
+  NativeScript:
+    :path: "../node_modules/@nativescript/core"
+
+SPEC CHECKSUMS:
+  NativeScript: abcdef1234567890abcdef1234567890
+  SDWebImage: abcdef1234567890abcdef1234567890
+  SwiftKeychainWrapper: abcdef1234567890abcdef1234567890
+  IQKeyboardManagerSwift: abcdef1234567890abcdef1234567890
+  Firebase: abcdef1234567890abcdef1234567890
+  GoogleSignIn: abcdef1234567890abcdef1234567890
+  FBSDKLoginKit: abcdef1234567890abcdef1234567890
+  AudioKit: abcdef1234567890abcdef1234567890
+
+PODFILE CHECKSUM: abcdef1234567890abcdef1234567890
+
+COCOAPODS: 1.14.3
